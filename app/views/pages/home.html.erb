@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <h2>MARVEL CHARACTER</h2>
+</head>
+<body>
+  <nav>
+   <a href="#home" class="w3-button w3-bar-item"> Home </a>
+   <a href="#about" class="w3-button w3-bar-item"> About </a>
+   <a href="#catalogue" class="w3-button w3-bar-item"> Catalogue </a>
+   <a href="#blog" class="w3-button w3-bar-item"> Blog </a>
+   <a href="#contact" class="w3-button w3-bar-item"> Contact </a>
+  </nav>
+
+  <section>
+    <img class="slides" src="images/shoe1.jpg" style="width:100%">
+    <img class="slides" src="images/shoe2.jpeg" style="width:100%">
+    <img class="slides" src="images/shoe3.jpeg" style="width:100%">
+    <img class="slides" src="images/shoe4.jpg" style="width:100%">
+  </section>
+
+  <section>
+    <p>Who is your Fav character?:</p>
+  </section>
+
+  <script type="text/javascript">
+    var myIndex = 0;
+    carousel();
+    function carousel(){
+      var i;
+      var x = documents.getElementsByClassNmae(slides);
+      for (var i = 0; i < x.length; i++) {
+        x[i],style.display = "none"
+      }
+      myIndex=1
+      }
+      x[myIndex-1]style.display="block";
+      setTimeout(carousel,3000);
+    }
+  </script>
+</body>
+</html>
